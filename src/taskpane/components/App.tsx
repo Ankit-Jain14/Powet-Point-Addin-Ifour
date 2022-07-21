@@ -4,6 +4,7 @@ import Header from "./Header";
 import HeroList, { HeroListItem } from "./HeroList";
 import Progress from "./Progress";
 import ImaageUpload from "./ImaageUpload";
+import Base from "./Base";
 
 /* global console, Office, require */
 
@@ -67,7 +68,9 @@ export default class App extends React.Component<AppProps, AppState> {
             Run
           </DefaultButton>
         </HeroList> */}
-        <ImaageUpload/>
+          <Base/>
+        {/* <ImaageUpload/> */}
+      
       </div>
     );
   }

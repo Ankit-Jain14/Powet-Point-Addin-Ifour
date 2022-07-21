@@ -55,17 +55,12 @@ useEffect(() => {
   return (
    <>
     <div>Test</div>
-    <div>
-        
-        <input type="radio" name="size" value="XS" id="xs" />Video
-        <input type="radio" name="size" value="S" id="s"/> Photo
-        <div >
-      <h1>Hello ReqRes users!</h1>
+   
       <div >
         {users.length &&
           users.map((user) => {
             return (
-                <>              <div key={user.id}>
+                <> <div key={user.id}>
                 <p>
                   <strong>{user.first_name}</strong>
                 </p>
@@ -77,8 +72,6 @@ useEffect(() => {
               );
           })}
       </div>
-    </div>
-    </div>
 
 
   
